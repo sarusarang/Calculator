@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.cal {
+
+    width: 25%;
+    height: 100%;
+    background: #050505;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    margin-top: 150px;
+
+}
+
+#display {
+
+    background-color: transparent;
+    color: white;
+    font-size: xxx-large;
+    border: none;
+    outline: none;
+    height: 60px
+}
+
+.my-btn {
+
+    width: 90px;
+    height: 50px;
+    border: 1px;
+    border-radius: 22px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    margin-right: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: background ease-out 0.9s;
+}
+
+.my-btn:hover{
+    background-color: orange;
+}
+
+.my-btnspace{
+
+    width: 150px;
+    height: 50px;
+    border: 1px;
+    border-radius: 22px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    margin-right: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: background ease-out 0.9s;
+
+
+}
+
+.my-btnspace:hover{
+    background-color: orange;
+}
